@@ -6,7 +6,6 @@
  * followed by a new line
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	long int n;
@@ -30,3 +29,11 @@ int main(void)
 			n = n / i;
 		}
 	}
+
+	if (n > 2)
+		max = n;
+
+	printf("%ld\n", max);
+
+	return (0);
+}
